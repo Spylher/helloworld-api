@@ -6,6 +6,6 @@ var target = Environment.GetEnvironmentVariable("TARGET") ?? "World";
 
 var app = builder.Build();
 
-app.MapGet("/", () => $"Hello22 {target}!");
+app.MapGet("/", () => $"Hello2 {target}!");
 
 app.Run(url);
